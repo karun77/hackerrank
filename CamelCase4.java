@@ -1,6 +1,20 @@
 import java.io.*;
 import java.util.*;
 
+//This program performs some action on each new line given in this format:
+//C;C;example word
+//
+//the two actions (functions) are splitting and combining, this is given in 
+//the first input parameter, the second input parameter stands for the type 
+//of name being dealt with - method, class or variable name
+//splitting converts a name from camel case to space seperated words
+//combining converts space seperated words into camel case method, class or 
+//variable names
+//
+//these are examples of proper method, class and variable names:
+// methodName() ClassName variableName
+
+
 public class Solution {
     
     static Scanner sc = new Scanner(System.in);
